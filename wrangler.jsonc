@@ -2,5 +2,10 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "library-manager",
   "compatibility_date": "2025-08-03",
-  "main": "./src/index.tsx"
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  }
 }
