@@ -1,5 +1,7 @@
 # library-manager
 
+公開 URL: https://library-manager.et-n-ogura.workers.dev
+
 ## 必要要件
 
 - Cloudflare アカウント
@@ -34,5 +36,3 @@ bun run wrangler login
 ```bash
 bun run deploy
 ```
-
-デプロイが完了すると、アクセス可能な URL が表示されます。
